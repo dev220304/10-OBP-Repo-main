@@ -5,4 +5,4 @@ function MyObject2(arr1, arr2) {
 }
 
 let obj2 = new MyObject2(["name", "age"], [1, 2, "Devashish"]);
-console.log(obj2);
+console.log(obj2); 
