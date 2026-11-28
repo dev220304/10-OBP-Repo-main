@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Classroom Students</title>
+  <style>
+    body {
+      font-family: Arial;
+      padding: 30px;
+    }
+
+    .student {
+      padding: 12px;
+      margin: 8px 0;
+      background: #eee;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 id="heading">Student List</h1>
+
+  <div class="student">Rahul</div>
+  <div class="student">Priya</div>
+  <div class="student">Aman</div>
+  <div class="student">Neha</div>
+  <div class="student">Karan</div>
+
+  <script>
+    let students = document.querySelectorAll(".student");
+    console.log(students);
+    console.log(students.length);
+    console.log(students[0].textContent);
+    console.log(students[2].textContent);
+
+    let heading = document.querySelector("#heading");
+    console.log(heading.textContent);
+    console.log("Total students: " + students.length);
+  </script>
+
+</body>
+</html>
